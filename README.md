@@ -49,17 +49,4 @@ erDiagram
 
 ### Use-Cases
 
-```plantuml
-@startuml
-left to right direction
-actor Pflegestation as station
-package Igel {
-    usecase "3. Übergibt an andere Pflegestelle / Auswilderungsstelle" as Uebergabe
-    usecase "2. Protokolliert Pflege" as Protokolliert
-    usecase "1. Nimmt auf" as Aufnahme
-}
-station --> Aufnahme
-station --> Protokolliert
-station --> Uebergabe
-@enduml
-```
+![alt text](diagrams/usecases.png "Use cases")
