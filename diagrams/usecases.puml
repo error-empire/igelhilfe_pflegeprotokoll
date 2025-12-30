@@ -1,12 +1,12 @@
 @startuml
 left to right direction
-actor Pflegestation as station
+actor Pflegestelle as stelle
 package Igel {
     usecase "1. Nimmt auf" as Aufnahme
     usecase "2. Protokolliert Pflege" as Protokolliert
     usecase "3. Übergibt an andere Pflegestelle / Auswilderungsstelle" as Uebergabe
 }
-station --> Aufnahme
-station --> Protokolliert
-station --> Uebergabe
+stelle --> Aufnahme
+stelle --> Protokolliert
+stelle --> Uebergabe
 @enduml
